@@ -113,3 +113,10 @@ elif state == 'NY':
     result = "Since you're from {}, your total cost is {}.".format(state, total_cost)
 
 print(result)
+
+----------------------------------------------------
+
+sentence = ["the", "quick", "brown", "fox", "jumped", "over", "the", "lazy", "dog"]
+# Write a for loop to print out each word in the sentence list, one word per line
+for i in sentence:
+    print (i)
