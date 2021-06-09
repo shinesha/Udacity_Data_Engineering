@@ -150,4 +150,15 @@ for i in range(len(usernames)):
 
 print(usernames)
 
+---------------------------------------------------------
+tokens = ['<greeting>', 'Hello World!', '</greeting>']
+count = 0
+
+# write your for loop here
+
+for i in tokens:
+    if i[0]=='<' and i[-1]== '>':
+        count=count+1
+print(count)
+
 
