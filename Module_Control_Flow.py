@@ -128,4 +128,17 @@ for num in range(1, 31):
     if num%5 ==0:
         print(num)
 
+--------------------------------------------------------
+
+names = ["Joey Tribbiani", "Monica Geller", "Chandler Bing", "Phoebe Buffay"]
+usernames = []
+
+# write your for loop here
+for name in names:
+    name = name.lower()
+    name = name.replace(" ", "_")
+    usernames.append(name)
+
+print(usernames)
+
 
